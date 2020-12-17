@@ -424,7 +424,7 @@
           <div class="footer-box">
             <form class="footer-form js-speaker-form">
               <p class="footer-form-paragraph">Подпишитесь на рассылку</p>
-              <input type="email" name="email" id="email" class="e-mail" placeholder="E-mail">
+              <input type="email" name="email" id="email" class="e-mail" placeholder="E-mail" autocomplete="off">
               <button type="submit" class="footer-form-button">Подписаться
                 <svg class="footer-form-icon" width="24px" height="24px">
                   <use href="./images/sprite.svg#icon-icon-send"></use>
@@ -441,15 +441,24 @@
             <p class="modal-form-paragraph">Оставьте свои данные, мы вам перезвоним</p>
             <div class="form-field">
               <label for="name">Имя</label>
-              <input class="modal-field" type="text" name="name" id="name">
+              <input class="modal-field" type="text" name="name" id="name" autocomplete="off">
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-person"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label for="tel">Телефон</label>
-              <input class="modal-field" type="tel" name="tel" id="tel">
+              <input class="modal-field" type="tel" name="tel" id="tel" autocomplete="off">
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-phone"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label for="email">Почта</label>
-              <input class="modal-field" type="email" name="email" id="email">
+              <input class="modal-field" type="email" name="email" id="email" autocomplete="off">
+              <svg class="modal-input-icon" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-email"></use>
+              </svg>
             </div>
             <div class="form-field">
               <label for="comment">Комментарий</label>
