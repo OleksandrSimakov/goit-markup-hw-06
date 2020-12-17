@@ -250,7 +250,9 @@
 }
 .modal-input-icon {
   position: absolute;
-  transform: translateY(29px) translateX(13px);
+  bottom: 0;
+  left: 0;
+  transform: translateY(-12px) translateX(12px);
 }
 .modal-field {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -260,7 +262,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
-  padding: 12px 42px;
+  padding: 12px 12px;
 }
 .form-field label {
   margin-bottom: 4px;
