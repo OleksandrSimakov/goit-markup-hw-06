@@ -1,4 +1,3 @@
-    <script>
       (() => {
         document
           .querySelector('.js-speaker-form')
@@ -12,4 +11,3 @@
             e.currentTarget.reset();
           });
       })();
-    </script>
