@@ -462,12 +462,12 @@
             </div>
             <div class="form-field">
               <label for="comment">Комментарий</label>
-              <textarea class="modal-field" name="comment" id="comment" rows="6" placeholder="Введите текст"></textarea>
+              <textarea class="modal-field" name="comment" id="comment" placeholder="Введите текст"></textarea>
             </div>
             <div class="checkbox-field">
-              <input class="policy-field" type="checkbox" id="policy" name="policy">
-                <label for="policy">Соглашаюсь с рассылкой и принимаю <a class="policy link" href="">Условия договора</a>
-                </label>
+              <input class="policy-field visually-hidden" type="checkbox" value="accept-policy" id="policy" name="policy">
+              <label class="policy-label" for="policy">Соглашаюсь с рассылкой и принимаю <a class="policy link" href="">Условия договора</a>
+              </label>
             </div>
             <button class="hero-button" type="submit">Отправить</button>
           </form>
