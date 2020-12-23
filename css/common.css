@@ -337,6 +337,7 @@ button {
   margin-left: 10px;
 }
 
+.footer-form input[placeholder="E-mail"],
 .footer-form input::placeholder {
   font-weight: 400;
   font-size: 16px;
